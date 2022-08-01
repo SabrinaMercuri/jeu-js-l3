@@ -1,0 +1,19 @@
+PAGE ACCUEIL
+	--> bouton jouer
+		--> lance le jeu
+	--> bouton paramètres
+		--> envoie sur la page des paramètres
+	--> bouton choix du niveau
+		--> envoie vers une page où on peut sélectionner le niveau de son choix
+		--> non cliquable au début car aucun niveaux débloqués
+	--> bouton credit
+		--> envoie vers la page des credits
+
+
+PAGE SETTINGS
+	--> choisir si bruitages ou non / modifier le volume
+	--> choisir si musique ou non / modifier volume
+
+
+PAGE LEVEL CHOICE 
+	--> les niveaux sont grisés jusqu'à ce qu'ils soient joués

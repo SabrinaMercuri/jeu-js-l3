@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Pixeled";
+    src: url("./fonts/Pixeled.ttf") format("truetype");
+  }
+
+/* -------------------------------------------------- GENERAL -------------------------------------------------- */
+
+body {
+    background-image: url("./images/pixel.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.page_title {
+    font-size: 50px; 
+    text-align: center; 
+    margin-top: 3%;
+    font-family: "Pixeled";
+    font-weight: 600;
+    color: white; 
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/* -------------------------------------------------- ACCUEIL -------------------------------------------------- */
+
+
+/* -------------------- BUTTONS -------------------- */
+
+.space_between_buttons {
+    margin-bottom: 1% !important;
+}
+
+.buttons_container {
+    /*display: flex; */
+    flex-flow: row wrap; 
+    margin-top: 8%; 
+    padding: 0 5%;
+}
+
+.container {
+    /*flex-flow: row wrap; */
+    margin-top: 8%; 
+    padding: 0 5%;
+}
+
+.button{
+    width: 30%; 
+    height:70px; 
+    /*background-color: blue; */
+    /*border: 1px solid; */
+    /*border-radius: 10px; */
+    text-align: center; 
+    margin: 0 auto;
+    font-family: "Pixeled";
+}
+
+.button:hover {
+    /*width:37%; 
+    height: 140px; */
+    transition: all 1s ease-in-out;
+    /*background-color: white;*/
+
+}
+
+.play_link {
+    text-decoration: none; 
+    /*color: white;*/ 
+    vertical-align: middle; 
+    display: block; 
+    width: 100%; /*placement*/
+    height: 90%;
+    /*font-family: "Pixeled";*/
+    text-align: center;
+}
+
+.link_text {
+    display: inline-block; 
+    /*margin-top: 2%; */
+    font-size: 25px;
+    color: white;
+    width: 100%;
+}
+.link_text:hover{
+	/*color: black;*/
+    font-size: 30px;
+    transition: all .3s ease-in-out;
+}
+
+.settings_link {
+    text-decoration: none; 
+    /*color: white;*/ 
+    vertical-align: middle; 
+    display: block; 
+    width: 100%; 
+    height: 100%;
+    /*font-family: "Pixeled";*/
+}
+
+.levels_link {
+    text-decoration: none; 
+    /*color: white;*/ 
+    vertical-align: middle; 
+    display: block; 
+    width: 100%; 
+    height: 100%;
+    /*font-family: "Pixeled";*/
+}
+
+
+
+/* -------------------------------------------------- SETTINGS -------------------------------------------------- */
+
+.sounds_setting {
+    font-size: 30px; 
+    margin-top: 15%; 
+    margin-left: 10%
+   /* font-family: "Pixeled";*/
+}
+
+.music_setting {
+    font-size: 30px; 
+    margin-left: 10%
+   /* font-family: ;*/
+}
+
+.settings_page{font-family:"Pixeled"; }
+
+.volume_bar{margin-left: 2%; font-size: 100%;}
+
+.button_back{margin-top: 5%;}

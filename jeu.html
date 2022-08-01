@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="jeu.css">
+    <script src="jeu.js"></script>
+    <title>Dungeons</title>
+</head>
+<body>
+	<h1 class="text"> Dungeons Adventures</h1>    
+    <div class="stats"><b id="chrono">Time : 0 </b> <b id="score">   Score : 0   </b></div>
+
+    <div class="infos-wrapper">
+        <table id="vies">
+            <td><img src="images/coeur_plein.png" id="vie1"></td>
+            <td><img src="images/coeur_plein.png" id="vie2"></td>
+            <td><img src="images/coeur_plein.png" id="vie3"></td>
+        </table>
+
+        <table class="coins-wrapper">
+            <td><img src="images/empty-coin.png" id="perso1"></td>
+            <td><img src="images/empty-coin.png" id="perso2"></td>
+            <td><img src="images/empty-coin.png" id="perso3"></td>
+        </table>
+    </div>
+	
+
+   
+
+    <canvas id="myCanvas" width="450" height="450"></canvas>
+
+      <div id="modal">
+        <div class="shadow-modal"></div>
+        <div class="modal-wrapper">
+            <div class="content-modal">
+             <span>GAME OVER</span>
+            </div>
+      
+            <div class="footer-modal" onclick="window.location.href='index.html'">
+                <span class="ok-button-modal">MENU</span>
+            </div>
+            </div>
+        </div>
+</body>
+</html>
